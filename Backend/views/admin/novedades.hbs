@@ -61,19 +61,19 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Confirmar Eliminación</h5>
+                                <h3 class="modal-title" id="exampleModalLabel">Confirmar Eliminación</h3>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 ¿Estás seguro de que deseas eliminar este producto?
                             </div>
-                            <div class="modal-footer">                                
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>                                
-                                <a href="/admin/novedades/eliminar/{{id}}" class="btn btn-danger">Eliminar</a>
+                            <div class="modal-footer"> 
+                                <a href="/admin/novedades/eliminar/{{id}}" class="btn btn-danger">Eliminar</a>                               
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>                                                                
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>                              
 
                 {{/each}}
             </tbody>
